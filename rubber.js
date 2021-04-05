@@ -18,7 +18,7 @@ class Rubber{
         rotate(angle);
         ellipseMode(RADIUS);
         fill(255, 10, 84);
-        ellipse(0,0,this.radius);
+        ellipse(0,0,this.radius,this.radius);
         pop();
     }
 }
