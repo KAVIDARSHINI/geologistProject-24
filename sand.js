@@ -19,7 +19,7 @@ class Sand{
         rotate(angle);
         ellipseMode(RADIUS);
         fill(221, 223, 0);
-        ellipse(0,0,this.radius);
+        ellipse(0,0,this.radius,this.radius);
         pop();
     }
 }
